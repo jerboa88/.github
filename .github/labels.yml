@@ -1,0 +1,3 @@
+- name: 🐛 bug
+  description: Something isn't working
+  color: 8cd842
