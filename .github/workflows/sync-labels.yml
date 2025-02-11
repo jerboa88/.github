@@ -17,5 +17,5 @@ jobs:
       - uses: brpaz/action-label-syncer@master
         with:
           repository: |
-              jerboa88/actions-test
+              jerboa88/actions-sandbox
           token: ${{ secrets.GH_TOKEN }}
