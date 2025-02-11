@@ -7,7 +7,7 @@ on:
     branches:
       - master
     paths:
-      - ${{ env.LABEL_FILE }}
+      - .github/labels.yml
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +15,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: micnncim/action-label-syncer@v1
         with:
-          manifest: ${{ env.LABEL_FILE }}
           repository: |
               jerboa88/actions-test
           token: ${{ secrets.GH_TOKEN }}
