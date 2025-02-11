@@ -1,6 +1,4 @@
 name: Sync labels
-env:
-  LABEL_FILE: .github/labels.yml
 on:
   workflow_dispatch:
   push:
@@ -9,8 +7,11 @@ on:
     paths:
       - .github/labels.yml
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
+    permissions:
+      content: read
+      issues: write
     steps:
       - uses: actions/checkout@v4
       - uses: micnncim/action-label-syncer@v1
