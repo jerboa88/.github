@@ -16,6 +16,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: brpaz/action-label-syncer@master
         with:
+          prune: false
+          manifest: .github/labels.yml
           repository: |
-              jerboa88/actions-sandbox
+            jerboa88/actions-sandbox
           token: ${{ secrets.GH_TOKEN }}
