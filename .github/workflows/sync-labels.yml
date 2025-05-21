@@ -19,5 +19,33 @@ jobs:
           prune: false
           manifest: .github/labels.yml
           repository: |
+            jerboa88/.github
+            jerboa88/168421
             jerboa88/actions-sandbox
+            jerboa88/actions-sandbox-2
+            jerboa88/better-segments-for-strava
+            jerboa88/calculator
+            jerboa88/Collage-Generator-for-Last.fm
+            jerboa88/Compare-Form-Backends
+            jerboa88/CringeCraft
+            jerboa88/custom-url-shortener
+            jerboa88/dark-mode-for-outlook
+            jerboa88/dotfiles
+            jerboa88/Game-Maps
+            jerboa88/gatsby-plugin-component-to-image
+            jerboa88/gimp-average-layers
+            jerboa88/Image-Signer
+            jerboa88/Internal-Domain-Name-Calculator-for-TrueCharts-Apps
+            jerboa88/jerboa88
+            jerboa88/jerboa88.github.io
+            jerboa88/Mergist
+            jerboa88/NoBS
+            jerboa88/Playlist-Archiver-for-Spotify
+            jerboa88/rtg-for-outlook
+            jerboa88/Shared-File-Finder-for-Google-Drive
+            jerboa88/Tally
+            jerboa88/Tally
+            jerboa88/Tally-Extension
+            jerboa88/tinyi18n
+            jerboa88/watch-history-exporter-for-amazon-prime-video
           token: ${{ secrets.GH_TOKEN }}
