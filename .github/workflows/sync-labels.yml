@@ -21,8 +21,6 @@ jobs:
           repository: |
             jerboa88/.github
             jerboa88/168421
-            jerboa88/actions-sandbox
-            jerboa88/actions-sandbox-2
             jerboa88/better-segments-for-strava
             jerboa88/calculator
             jerboa88/Collage-Generator-for-Last.fm
