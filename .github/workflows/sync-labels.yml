@@ -21,6 +21,7 @@ jobs:
           repository: |
             jerboa88/.github
             jerboa88/168421
+            jerboa88/astro-snapshot
             jerboa88/better-segments-for-strava
             jerboa88/calculator
             jerboa88/Collage-Generator-for-Last.fm
@@ -46,6 +47,7 @@ jobs:
             jerboa88/Tally
             jerboa88/Tally
             jerboa88/Tally-Extension
+            jerboa88/tally-ts
             jerboa88/tinyi18n
             jerboa88/watch-history-exporter-for-amazon-prime-video
           token: ${{ secrets.GH_TOKEN }}
